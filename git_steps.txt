@@ -1,0 +1,6 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Anuja17-tar/JSProjects.git
+git push -f origin main
