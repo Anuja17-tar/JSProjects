@@ -1,0 +1,33 @@
+body {
+  background-color: aquamarine;
+}
+
+.imgBox {
+  background-image: url("image.jpg");
+  position: relative;
+  top: 7px;
+  left: 5px;
+  bottom: 7px;
+  height: 135px;
+  width: 135px;
+  cursor: pointer;
+}
+
+.whiteBox {
+  display: inline-block;
+  height: 145px;
+  width: 145px;
+  margin: 10px;
+  background-color: azure;
+  border: 3px black solid;
+}
+
+.hold {
+  border: solid red 4px;
+}
+.dashed {
+  border: dashed;
+}
+.drop {
+  display: none;
+}
